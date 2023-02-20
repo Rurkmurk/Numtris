@@ -402,12 +402,12 @@ void InitNewBox()
 		break;
 
 		case 1:
-		if (n<60) box.variantNext=0;		// 60%-2  40%-4
+		if (n<30) box.variantNext=0;		// 30%-2  70%-4
 		else box.variantNext=1;
 		break;
 		
 		case 2:
-		if (n<50) box.variantNext=0;		// 50%-2  30%-4  20%-8
+		if (n<40) box.variantNext=0;		// 40%-2  40%-4  20%-8
 		else if (n<80) box.variantNext=1;
 		else box.variantNext=2;
 		break;
