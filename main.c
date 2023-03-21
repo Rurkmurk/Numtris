@@ -655,6 +655,7 @@ void main(void)
 			Collision(box.str, box.col);
 			InitNewBox();
 			Update();
+			while (joystick());
 		}
 	}
 }
